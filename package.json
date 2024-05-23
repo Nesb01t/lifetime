@@ -4,14 +4,21 @@
   "type": "module",
   "scripts": {
     "build": "nuxt build",
-    "dev": "nuxt dev -o",
+    "dev": "nuxt dev",
     "generate": "nuxt generate",
     "preview": "nuxt preview",
-    "postinstall": "nuxt prepare"
+    "postinstall": "nuxt prepare",
+    "prettier": "prettier . --write"
   },
   "dependencies": {
+    "@nuxtjs/tailwindcss": "^6.12.0",
+    "dayjs": "^1.11.11",
     "nuxt": "^3.11.2",
     "vue": "^3.4.27",
     "vue-router": "^4.3.2"
+  },
+  "devDependencies": {
+    "prettier": "^3.2.5",
+    "sass": "^1.77.2"
   }
 }
